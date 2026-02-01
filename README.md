@@ -17,7 +17,7 @@ Em mercados de alta volatilidade como o de criptomoedas, o acesso rápido, preci
 *   **Python 3**: Linguagem de programação principal.
 *   **`pandas`**: Biblioteca para manipulação e análise de dados, utilizada para estruturar e armazenar os preços coletados em DataFrames.
 *   **`requests`**: Biblioteca HTTP para Python, empregada para realizar as requisições web e obter o conteúdo HTML das páginas do CoinMarketCap.
-*   **`BeautifulSoup4` (bs4)**: Biblioteca para parsing de HTML e XML, essencial para extrair os dados de preço de forma robusta do conteúdo web.
+*   **`BeautifulSoup` (bs4)**: Biblioteca para parsing de HTML e XML, essencial para extrair os dados de preço de forma robusta do conteúdo web.
 *   **`pytz`**: Biblioteca para trabalhar com fusos horários, garantindo a padronização e correção dos timestamps de consulta.
 *   **`datetime`**: Módulo padrão do Python para manipulação de datas e horas.
 
@@ -25,4 +25,4 @@ Em mercados de alta volatilidade como o de criptomoedas, o acesso rápido, preci
 Para replicar e executar este projeto, é necessário ter o Python 3 instalado. As bibliotecas dependentes podem ser instaladas via `pip`:
 
 ```bash
-pip install pandas requests beautifulsoup4 pytz
+pip install pandas requests beautifulsoup pytz time
